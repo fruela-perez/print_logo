@@ -15,5 +15,5 @@ Imprime en consola una imagen ASCII centrada en la pantalla
   `cd /ruta/`<br/>
   `git clone https://github.com/fruela-perez/print_logo.git` 
 
-+ Añadir en tu `~/.profile` (Linux) o `~/.bash_profile` (OS X) la línea:<br/><br/>
++ Añadir a `~/.profile` (Linux) o `~/.bash_profile` (OS X) la línea:<br/><br/>
   `php /ruta/print_logo/print.php </path/to/ascii_image.txt>` <br/><br/>
