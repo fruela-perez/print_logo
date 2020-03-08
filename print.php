@@ -12,9 +12,11 @@
 
 	echo PHP_EOL;
 
+	$margen = str_repeat ( " ", $agregarEspacios );
+
 	while ( ! feof ( $fn ) )  
 	{
-		echo str_repeat ( " ", $agregarEspacios ) . fgets ( $fn );
+		echo  $margen . fgets ( $fn );
 	}
 
 	echo PHP_EOL;
